@@ -2,10 +2,10 @@ import os
 import mysql.connector
 
 mydb = mysql.connector.connect(
-    host="",
-    user="pyuser",
-    password="user12345",
-    database="mysqldb"
+    host="Enter your Server IP here",
+    user="Enter Username here",
+    password="Enter Password here",
+    database="Enter Database name here"
 )
 
 def Add(ad, kdvsatis, kdvalis, durum=1):
